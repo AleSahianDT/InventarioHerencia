@@ -41,6 +41,10 @@ public class Tecnologia extends Producto{
                 ". Cuesta "+this.precio+ " y el mantenimiento de acuerdo a su vida util es "+intervaloMantenimiento();
     }
 
+    public void imprimirTecnologia(){
+        System.out.println(toString());
+    }
+
     public String getFabricante() {
         return Fabricante;
     }

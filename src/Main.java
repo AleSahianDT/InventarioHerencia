@@ -3,15 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
-
-        Alimento a1 = new Alimento();
-        a1.ingresarProducto();
-        Tecnologia t1 = new Tecnologia();
-        t1.ingresarProducto();
-        System.out.println(t1.toString());
-        Electrodomestico e1 = new Electrodomestico();
-        e1.ingresarProducto();
-        System.out.println(t1.toString());
+        Menu menu = new Menu();
+        menu.Ejecucion();
 
     }
 }

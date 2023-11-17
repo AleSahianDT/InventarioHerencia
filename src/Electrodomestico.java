@@ -49,6 +49,10 @@ public class Electrodomestico extends Producto{
                 "a su vida util es de "+intervaloMantenimiento();
     }
 
+    public void imprimirElectrodomestico(){
+        System.out.println(toString());
+    }
+
     public int getVidaUtilAnios() {
         return vidaUtilAnios;
     }

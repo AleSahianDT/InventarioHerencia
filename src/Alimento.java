@@ -40,6 +40,14 @@ public class Alimento extends Producto{
         this.fechaExpiracion=sc.next();
     }
 
+    @Override
+    public String toString(){
+        return "El Alimento "+this.nombre+ " tiene un precio de "+this.precio+
+                ". Su codigo es "+this.codigo+", hay un total de "+this.cantidad+
+                " en bodega, es de marca "+this.marca+" fue elaborado el" +this.fechaElaboracion+
+                " y expira el "+this.fechaExpiracion;
+    }
+
 
     public String getFechaElaboracion() {
         return fechaElaboracion;
