@@ -2,13 +2,16 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        //Producto p1 = new Producto("Producto genérico 1",0,"C001",0,"Sin marca");
-        Producto p1 = new Producto();
-        p1.ingresarProducto();
+
+
         Alimento a1 = new Alimento();
         a1.ingresarProducto();
-
+        Tecnologia t1 = new Tecnologia();
+        t1.ingresarProducto();
+        System.out.println(t1.toString());
         Electrodomestico e1 = new Electrodomestico();
         e1.ingresarProducto();
+        System.out.println(t1.toString());
+
     }
 }
