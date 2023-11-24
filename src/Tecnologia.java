@@ -37,8 +37,11 @@ public class Tecnologia extends Producto{
 
     @Override
     public String toString(){
-        return "La tecnologia "+this.nombre+ "del fabricante "+this.Fabricante+" es de marca "+this.marca+
-                ". Cuesta "+this.precio+ " y el mantenimiento de acuerdo a su vida util es "+intervaloMantenimiento();
+        return "Tecnologia: "+this.nombre+
+                "\nFabricante: "+this.Fabricante+
+                "\nMarca "+this.marca+
+                "\nPrecio: "+this.precio+
+                "\nMantenimiento cada: "+intervaloMantenimiento();
     }
 
     public void imprimirTecnologia(){

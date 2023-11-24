@@ -43,10 +43,12 @@ public class Electrodomestico extends Producto{
 
     @Override
     public String toString(){
-        return "El electrodomestico "+this.nombre+ " tiene un precio de "+this.precio+
-                ". Fue fabricado en "+this.sitioFabricacion+", tiene una garantia de "+this.garantia+
-                ", el voltaje de alimentacion es "+this.voltajeAlimentacion+" y el mantenimiento de acuerdo" +
-                "a su vida util es de "+intervaloMantenimiento();
+        return "Electrodomestico: "+this.nombre+
+                "\nPrecio: "+this.precio+
+                "\nSitio de fabricacion: "+this.sitioFabricacion+
+                "\nGarantia: "+this.garantia+
+                "\nVoltaje: "+this.voltajeAlimentacion+
+                "\nMantenimiento cada: "+intervaloMantenimiento();
     }
 
     public void imprimirElectrodomestico(){

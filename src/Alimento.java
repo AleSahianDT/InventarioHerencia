@@ -42,10 +42,13 @@ public class Alimento extends Producto{
 
     @Override
     public String toString(){
-        return "El Alimento "+this.nombre+ " tiene un precio de "+this.precio+
-                ". Su codigo es "+this.codigo+", hay un total de "+this.cantidad+
-                " en bodega, es de marca "+this.marca+" fue elaborado el" +this.fechaElaboracion+
-                " y expira el "+this.fechaExpiracion;
+        return "Alimento: "+this.nombre+
+                "\nPrecio: "+this.precio+
+                "\nCodigo: "+this.codigo+
+                "\nCantidad: "+this.cantidad+
+                "\nMarca: "+this.marca+
+                "\nFecha elaboracion: " +this.fechaElaboracion+
+                "\nFecha expiracion: "+this.fechaExpiracion;
     }
 
 
